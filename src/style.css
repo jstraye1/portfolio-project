@@ -1,6 +1,62 @@
-/*font families
-font-family: 'Lora', serif;
-font-family: 'Poppins', sans-serif;*/
-h1 {
+:root {
+  --primary-color: #90f6d7;
+  --secondary-color: #35bcbf;
+  --third-color: #41506b;
+  --heading-color: #263849;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Lora", serif;
+  color: var(--heading-color);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.hero {
+  text-align: center;
+  background: rgba(144, 246, 215, 0.3);
+  padding: 150px 40px;
+  border-bottom: 8px solid var(--secondary-color);
+}
+
+.hero h2 {
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-button {
+  background: var(--third-color);
+  border: 0;
+  padding: 15px 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact-button:hover {
+  background: var(--heading-color);
+}
+
+@media (max-width: 475px) {
+  h1 {
+    font-size: 80px;
+  }
+  .hero {
+    padding: 75px 40px;
+  }
+  .hero h2 {
+    font-size: 30px;
+  }
 }
