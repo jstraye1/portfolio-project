@@ -26,6 +26,10 @@ h2 {
   font-size: 36px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .hero {
   text-align: center;
   background: rgba(144, 246, 215, 0.3);
@@ -38,15 +42,41 @@ h2 {
   font-family: "Poppins", sans-serif;
 }
 
-.contact-button {
+.primary-button {
   background: var(--third-color);
   border: 0;
+  width: 230px;
   padding: 15px 30px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-.contact-button:hover {
+.primary-button:hover {
   background: var(--heading-color);
+}
+
+.project-description {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+@media (max-width: 1200px) {
+  .project-description {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 990px) {
+  .project-description {
+    margin-top: 20px;
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 766px) {
+  .project-description {
+    text-align: center;
+    margin-top: 0px;
+  }
 }
 
 @media (max-width: 475px) {
