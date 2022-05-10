@@ -26,6 +26,10 @@ h2 {
   font-size: 36px;
 }
 
+a {
+  color: var(--secondary-color);
+}
+
 .text-center {
   text-align: center;
 }
