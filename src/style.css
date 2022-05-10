@@ -55,7 +55,7 @@ h2 {
 }
 
 .project-description {
-  margin-top: 80px;
+  margin-top: 60px;
   padding: 20px;
 }
 
@@ -75,7 +75,7 @@ h2 {
 @media (max-width: 766px) {
   .project-description {
     text-align: center;
-    margin-top: 0px;
+    margin-top: 20px;
   }
 }
 
