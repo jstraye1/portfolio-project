@@ -33,7 +33,7 @@ h2 {
 .hero {
   text-align: center;
   background: rgba(144, 246, 215, 0.3);
-  padding: 150px 40px;
+  padding: 125px 40px;
   border-bottom: 8px solid var(--secondary-color);
 }
 
@@ -42,7 +42,8 @@ h2 {
   font-family: "Poppins", sans-serif;
 }
 
-.primary-button {
+.primary-button,
+.primary-button:focus {
   background: var(--third-color);
   border: 0;
   width: 230px;
@@ -56,6 +57,14 @@ h2 {
 
 .project-description {
   margin-top: 60px;
+  padding: 20px;
+}
+
+.profile-pic {
+  max-width: 300px;
+}
+
+.about-description {
   padding: 20px;
 }
 
@@ -73,9 +82,15 @@ h2 {
 }
 
 @media (max-width: 766px) {
-  .project-description {
+  .project-description,
+  .about-description {
     text-align: center;
     margin-top: 20px;
+  }
+
+  .profile-pic {
+    display: block;
+    margin: 0 auto;
   }
 }
 
