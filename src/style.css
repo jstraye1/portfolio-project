@@ -53,7 +53,12 @@ a {
   margin-bottom: 40px;
   border-bottom: 8px solid var(--secondary-color);
 }
-
+.header-img {
+  max-width: 225px;
+  margin-right: 50px;
+  border-radius: 50px;
+  border: 3px solid var(--secondary-color);
+}
 .primary-button,
 .primary-button:focus {
   background: var(--third-color);
@@ -99,6 +104,41 @@ a {
 .navbar .nav-link:hover {
   color: var(--secondary-color) !important;
 }
+
+.work-inquiry {
+  background: rgba(144, 246, 215, 0.3);
+  padding: 30px 120px;
+  margin: 80px 0;
+}
+
+.work-inquiry h4 {
+  font-size: 44px;
+}
+
+.bottom-bar {
+  background: var(--third-color);
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.bottom-bar a {
+  color: #fff;
+  font-size: 18px;
+  line-height: 16px;
+  margin-left: 15px;
+  transition: all 150ms ease-in-out;
+}
+
+.bottom-bar p {
+  margin-bottom: 0px;
+}
+
+.bottom-bar a:hover {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 1200px) {
   .project-description {
     margin-top: 30px;
