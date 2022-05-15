@@ -53,6 +53,10 @@ a {
   margin-bottom: 40px;
   border-bottom: 8px solid var(--secondary-color);
 }
+
+.secondary-hero h1 {
+  font-size: 80px;
+}
 .header-img {
   max-width: 225px;
   margin-right: 50px;
@@ -119,7 +123,6 @@ a {
   background: var(--third-color);
   color: #fff;
   padding: 15px 30px;
-  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -131,12 +134,14 @@ a {
   transition: all 150ms ease-in-out;
 }
 
-.bottom-bar p {
-  margin-bottom: 0px;
-}
-
 .bottom-bar a:hover {
   color: var(--secondary-color);
+}
+
+.bottom-bar p,
+.bottom-bar p a {
+  margin-bottom: 0px;
+  font-size: 14px;
 }
 
 @media (max-width: 1200px) {
@@ -163,6 +168,10 @@ a {
     display: block;
     margin: 0 auto;
   }
+
+  .secondary-hero h1 {
+    font-size: 60px;
+  }
 }
 
 @media (max-width: 475px) {
@@ -174,5 +183,8 @@ a {
   }
   .hero h2 {
     font-size: 30px;
+  }
+  .bottom-bar {
+    font-size: 12px;
   }
 }
