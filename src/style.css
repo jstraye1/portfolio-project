@@ -80,6 +80,25 @@ a {
   padding: 20px;
 }
 
+.portfolio-img {
+  transition: all 200ms ease-in-out;
+}
+.portfolio-img:hover {
+  opacity: 60%;
+}
+
+.navbar {
+  background-color: var(--third-color);
+}
+
+.navbar a {
+  color: #fff !important;
+}
+
+.navbar .active,
+.navbar .nav-link:hover {
+  color: var(--secondary-color) !important;
+}
 @media (max-width: 1200px) {
   .project-description {
     margin-top: 30px;
@@ -104,13 +123,6 @@ a {
     display: block;
     margin: 0 auto;
   }
-}
-
-.portfolio-img {
-  transition: all 200ms ease-in-out;
-}
-.portfolio-img:hover {
-  opacity: 60%;
 }
 
 @media (max-width: 475px) {
